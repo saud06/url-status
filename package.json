@@ -1,0 +1,27 @@
+{
+  "name": "url-status",
+  "version": "1.0.0",
+  "description": "This app checks the status of provided URL(s) by the user every 1 minute.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index",
+    "production": "NODE_ENV=production nodemon index"
+  },
+  "author": "Saud",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.7.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "twilio": "^3.70.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
