@@ -1,8 +1,8 @@
 /*
- * Title:
- * Description:
+ * Title: Utitilities
+ * Description: Handls some utility functions
  * Author: Saud
- * Date:
+ * Date: 01-22-2021
  */
 
 // Dependencies
